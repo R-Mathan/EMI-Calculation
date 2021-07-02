@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculation</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="emi">
+        <div class="container">
+            <h1 class="text-center">EMI CALCULATION</h1><br>
+            <div class="head pb-3">           
+                <div class="useri">
+                    <label for="e-amount">Enter Amount : </label>
+                    <input type="text" name="amount" id="Eamount">
+                </div>
+                <div class="useri">
+                    <label for="e-amount">Enter Percentage(%) : </label>
+                    <input type="text" name="amount" id="per">
+                </div>
+                <div class="buttons">
+                    <button class="btn" id="btn">Submit</button>
+                    <button class="btn" id="reset">Reset</button>
+                </div>
+            </div>
+            <div class="emi-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Month</th>
+                            <th>EMI Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>January</td>
+                            <td><input type="text" id="mon" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>February</td>
+                            <td><input type="text" id="feb" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>March</td>
+                            <td><input type="text" id="mar" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>April</td>
+                            <td><input type="text" id="apr" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>May</td>
+                            <td><input type="text" id="may" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>June</td>
+                            <td><input type="text" id="june" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>July</td>
+                            <td><input type="text" id="july" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>August</td>
+                            <td><input type="text" id="Aug" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>September</td>
+                            <td><input type="text" id="sep" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>October</td>
+                            <td><input type="text" id="oct" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td>November</td>
+                            <td><input type="text" id="nov" class="month"></td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td>December</td>
+                            <td><input type="text" id="dec" class="month"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>  
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="./js/jqurey.js"></script>
+</body>
+</html>
